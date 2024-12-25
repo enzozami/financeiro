@@ -11,7 +11,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #ffb1c1;
-    color: white;
+    color: white; 
 }
 
 a{
@@ -24,10 +24,8 @@ h2{
 }
 
 #login{
-    max-width: 500px;
-    max-height: 500px;
-    margin: 150px auto;
-    padding: 3rem 2rem 1rem 2rem;
+    max-width: 600px;
+    max-height: 600px;
 }
 
 div #login{
