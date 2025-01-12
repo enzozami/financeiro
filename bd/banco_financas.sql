@@ -16,16 +16,16 @@ CREATE TABLE tipo(
 
 CREATE TABLE dado(
     id_dado INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
-    descricao VARCHAR(50) NOT NULL,
-    valor DECIMAL(6, 2) UNSIGNED NOT NULL,
-    dataRealizada DATETIME NOT NULL,
+    descricao VARCHAR(50),
+    valor DECIMAL(6, 2) UNSIGNED,
+    dataRealizada DATETIME,
     tipo_id INT UNSIGNED,
     
     FOREIGN KEY (tipo_id) REFERENCES tipo(id_tipo)
 );
 
 select * from  realizar_login;
-drop table realizar_login;
+drop table dado;
 
 
 

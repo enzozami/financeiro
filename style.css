@@ -23,14 +23,17 @@ h2{
     margin: 1rem 1rem;
 }
 
-#login{
-    max-width: 600px;
-    max-height: 600px;
-}
-
-div #login{
+#login {
+    max-width: 500px;
+    max-height: 500px;
+    padding: 10px;
     border: 3px solid white;
     border-radius: 15px;
+    position: absolute; /* Permite o uso de top e left */
+    top: 50%; /* Alinha ao meio verticalmente */
+    left: 50%; /* Alinha ao meio horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o centro do elemento */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra sutil */
 }
 
 #btn{
@@ -55,9 +58,6 @@ div #login{
     max-height: 1000px;
     margin: 1rem auto;
     padding: 2rem 2rem 2rem 2rem;
-}
-
-div #formulario{
     border: 3px solid white;
     border-radius: 15px;
 }
